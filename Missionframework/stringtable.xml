@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Sectors">
+    <Package name="Respawn Menu">
+		<Container name="Respawn Menu">
+			<Key ID="STR_RESPAWN_MENU_TITLE">
+				<Original>Respawn Menu</Original>
+				<Portuguese>Menu de Respawn</Portuguese>
+			</Key>
+			<Key ID="STR_RESPAWN_MENU_SELECT">
+				<Original>Select Position</Original>
+				<Portuguese>Selecionar Posição</Portuguese>
+			</Key>
+			<Key ID="STR_RESPAWN_MENU_SELECT">
+				<Original>Select Position:</Original>
+				<Portuguese>Selecionar Posição:</Portuguese>
+			</Key>
+			<Key ID="STR_RESPAWN_MENU_DEPLOY">
+				<Original>Deploy</Original>
+				<Portuguese>Realocar</Portuguese>
+			</Key>
+			<Key ID="STR_RESPAWN_MENU_DEPLOY_NOT_AVAILABLE">
+				<Original>Not available</Original>
+				<Portuguese>Não disponível</Portuguese>
+			</Key>
+        </Container>
+    </Package>
+</Project>
