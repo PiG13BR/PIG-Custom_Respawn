@@ -32,9 +32,6 @@ params[
 
 uiNamespace setVariable ["PIG_playerObject", _player];
 
-_dist = 10; // Distance to detect enemies nearby. Placeholder value, change this for your missions.
-_enemySide = east; // Enemy side
-
 // Create the camera using the player pos
 respawn_camera = "camera" camCreate (getposATL _player);
 camUseNVG false;
