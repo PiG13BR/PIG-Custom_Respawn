@@ -69,9 +69,10 @@ class PiG_RscRespawnMenu
 			w = 0.124643 * safezoneW;
 			h = 0.0840187 * safezoneH;
 
-			class ComboScrollBar
+			class ListScrollBar
 			{
 				color[] = {1,1,1,1};
+				autoScrollEnabled = 1;
 				colorActive[] = {1,1,1,1};
 				colorDisabled[] = {1,1,1,0.3};
 				thumb = "\A3\ui_f\data\gui\cfg\scrollbar\thumb_ca.paa";
@@ -82,7 +83,6 @@ class PiG_RscRespawnMenu
 				scrollSpeed = 0.06;
 				width = 0;
 				height = 0;
-				autoScrollEnabled = 0;
 				autoScrollSpeed = -1;
 				autoScrollDelay = 5;
 				autoScrollRewind = 0;
