@@ -74,7 +74,6 @@ respawn_camera camcommit 60;
 	params ["_control", "_lbCurSel", "_lbSelection"];
 
 	respawn_object = (PIG_respawnList select 1) select _lbCurSel;
-	systemChat str respawn_object;
 
 	// Set camera target
 	respawn_camera camSetTarget respawn_object;
